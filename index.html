@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exam Sphere</title>
+<style>
+body {
+    font-family: Arial;
+    background: #f0f4fa;
+    margin: 0;
+    text-align: center;
+}
+header {
+    background: #10264d;
+    color: white;
+    padding: 25px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+    padding: 35px;
+    max-width: 1000px;
+    margin: auto;
+}
+.card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #0002;
+}
+.card h2 { color: #1769d2; }
+a {
+    display: inline-block;
+    background: #1769d2;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+a:hover { background: #0b438f; }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>EXAM SPHERE</h1>
+    <p>Java Programming Practice Platform</p>
+</header>
+
+<h2>Welcome to Exam Sphere</h2>
+<p>Select your module</p>
+
+<div class="container">
+
+<div class="card">
+    <h2>1. Student Module</h2>
+    <p>Write and run Java code.</p>
+    <a href="page2.html?module=Student Module">Enter</a>
+</div>
+
+<div class="card">
+    <h2>2. Adaptive Engine Module</h2>
+    <p>Write and run Java code.</p>
+    <a href="page2.html?module=Adaptive Engine Module">Enter</a>
+</div>
+
+<div class="card">
+    <h2>3. Result Module</h2>
+    <p>Write and run Java code.</p>
+    <a href="page2.html?module=Result Module">Enter</a>
+</div>
+
+<div class="card">
+    <h2>Student Details</h2>
+    <p>Enter your student information.</p>
+    <a href="page2.html?view=student">Enter Details</a>
+</div>
+
+</div>
+</body>
+</html>
